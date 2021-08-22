@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Button.gd" type="Script" id=1]
 [ext_resource path="res://Control.gd" type="Script" id=2]
 [ext_resource path="res://Button.png" type="Texture" id=3]
 [ext_resource path="res://Button.bmp" type="BitMap" id=4]
+[ext_resource path="res://ButtonHover.png" type="Texture" id=5]
 
 [node name="Node2D" type="Node2D"]
 
@@ -30,6 +31,9 @@ margin_bottom = 78.0
 mouse_filter = 1
 mouse_default_cursor_shape = 16
 script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="TextureButton" type="TextureButton" parent="CanvasLayer/Panel/TooltipArea"]
 anchor_left = 0.5
@@ -42,6 +46,7 @@ margin_right = -25.5
 margin_bottom = 20.0
 mouse_filter = 1
 texture_normal = ExtResource( 3 )
+texture_hover = ExtResource( 5 )
 texture_click_mask = ExtResource( 4 )
 script = ExtResource( 1 )
 __meta__ = {

@@ -1,2 +1,2 @@
-# GodotOverlappingButtons
-Demonstrating behaviour of overlapping buttons in Godot.
+# Godot Overlapping Controls
+Demonstrating behaviour of overlapping controls in Godot.

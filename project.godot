@@ -15,8 +15,8 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Overlapping Buttons"
-config/description="Demonstrating behaviour of overlapping buttons in Godot."
+config/name="Overlapping Controls"
+config/description="Demonstrating behaviour of overlapping controls  in Godot."
 run/main_scene="res://Main.tscn"
 config/icon="res://icon.png"
 
